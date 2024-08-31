@@ -1,0 +1,221 @@
+* {
+    border: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./images/Athirapally_Waterfalls_after_the_Monsoons.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+#navbtn {
+    background-color: rgb(94, 94, 251);
+    
+}
+#chembra {
+    height: 277px;
+}
+
+.keralamap {
+    height: 100%;    
+    width: 100%;     
+    object-fit: fill; 
+}
+.list {
+    list-style: none;
+    padding-left: 40px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+.list li {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    
+}
+.list li a {
+    font-family: Ysabeau, Bona nova SC,sans-serif,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: large;
+    color: black;
+}
+.list li a:hover{
+    color: green;
+}
+
+.form-container {
+    display: flex;
+    padding: 20px;
+}
+#form {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.footer-logo {
+    max-width: 100px;
+    margin: 0 10px;
+    
+}
+
+.footer-logo:nth-child(4) {
+    max-width: 120px;
+}
+
+.footer-logo:nth-child(2) {
+    max-width: 90px;
+}
+
+.form-container{
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 0cm;
+}
+
+.tp{
+    color:white;
+    font-size: larger;
+    font-family:Bona nova SC,sans-serif,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
+
+.logo{
+    
+    margin-right: 36%;
+    padding: 10px;
+}
+.container-fluid{
+    background-color: rgb(190, 232, 155);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}
+.col-md-6:hover{
+    transform: scale(1.02);
+    transition: 1s;
+    color: black;
+}
+.container-fluid{
+    padding-bottom: 10px;
+}
+#navibar{
+    padding-bottom: 0cm;
+    padding-top: 0cm;
+}
+.card-text{
+    font-family:Ysabeau,sans-serif,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+}
+
+.card-title{
+    font-family: Bona nova SC,sans-serif,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.cardss{
+    font-family: Bona nova SC;
+    padding-top: 10px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+@media (max-width: 992px) {
+    .logo {
+        margin-right: 25%;
+        padding: 5px;
+    }
+
+    .form-container {
+        flex-direction: column;
+        padding: 15px;
+        margin-top: 15px;
+    }
+
+    .footer-logo {
+        max-width: 80px;
+        margin: 0 5px;
+    }
+
+    #chembra {
+        height: 200px;
+    }
+
+    .list {
+        padding-left: 20px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 576px) {
+    .logo {
+        margin-right: 15%;
+        padding: 5px;
+    }
+
+    .form-container {
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    #chembra {
+        height: 150px;
+    }
+
+    .footer-logo {
+        max-width: 60px;
+        margin: 0 2px;
+    }
+
+    .list {
+        padding-left: 10px;
+    }
+
+    .list li {
+        margin-bottom: 5px;
+    }
+
+    .container-fluid {
+        border-radius: 0;
+    }
+
+    .col-md-6:hover {
+        transform: none;
+    }
+}
+.carousel-item img {
+    border-radius: 10px;
+    object-fit: cover;
+    height: 450px;
+}
+.carousel-caption h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+.carousel-item {
+    transition: transform 0.6s ease-in-out;
+}
+
+#modalImage {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+  
+.modal-content {
+    border-radius: 10px;
+    overflow: hidden;
+}
